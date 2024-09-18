@@ -1,5 +1,7 @@
 def get_matrix(n, m, value):
     matrix = []
+    if m <=0 or value <=0:
+        return matrix
     for i in range(n):
         strings = []
         matrix.append(strings)
